@@ -1,0 +1,18 @@
+.buttonGeneric {
+  background-color: #437044;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  color: azure;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+  position: relative;
+  vertical-align: top;
+}
+
+.buttonGeneric:hover {
+  background-color: #5fa061;
+
+}

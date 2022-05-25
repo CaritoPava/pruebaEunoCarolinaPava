@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Carolina Pava</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="./js/products.js"></script>
+  <header class="header-titulo">
+    PRUEBA TECNICA CAROLINA PAVA
+  </header>
+  <nav class="bar-nav">
+    <a href="#">Productos</a>
+    <a href="./addProduct.html">Agregar Producto</a>
+    <a href="./updateProduct.html">Actualizar Producto</a>
+    <a href="./deleteProduct.html">Borrar producto</a>
+  </nav>
+  <main>
+    <h1 class="main-title">Productos</h1>
+    <h3 class="main-title main-subTitle">Los productos actules son los siguientes:</h3>
+    <div class="main-conte">
+      <div>
+        <h4>ID</h4>
+      </div>
+      <div>
+        <h4>NOMBRE</h4>
+      </div>
+      <div>
+        <h4>COLOR</h4>
+      </div>
+      <div>
+        <h4>PESO</h4>
+      </div>
+    </div>
+    <div id="products"></div>
+    <div class="conteButton">
+      <button class="buttonGeneric" onclick="listItems()">
+        Calcular total
+      </button>
+    </div>
+  </main>
+  <footer class="bar-nav">
+    <p>carito9018@gmail.com</p>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-github"></i>
+  </footer>
+</body>
+
+</html>

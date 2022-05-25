@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Carolina Pava</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="./js/newProduct.js"></script>
+  <header class="header-titulo">
+    PRUEBA TECNICA CAROLINA PAVA
+  </header>
+  <nav class="bar-nav">
+    <a href="./index.html">Productos</a>
+    <a href="./addProduct.html">Agregar Producto</a>
+    <a href="./updateProduct.html">Actualizar Producto</a>
+    <a href="./deleteProduct.html">Borrar producto</a>
+  </nav>
+  <main>
+    <h1 class="main-title">Agregar productos</h1>
+    <h3 class="main-title main-subTitle">Para agregar un producto diligencia la informacion:</h3>
+    <div class="main-conte-add">
+      <form class="main-conte-addForm" action="">
+        <label for="">Id</label>
+        <input type="text" placeholder="Id" id="code">
+        <label for="">Nombre</label>
+        <input type="text" placeholder="Nombre" id="name">
+        <label for="">Color</label>
+        <input type="text" placeholder="Color" id="color">
+        <label for="">Weight</label>
+        <input type="text" placeholder="Peso" id="weight">
+      </form>
+      <div class="conteButton">
+        <button class="buttonGeneric" onclick="newProduct()">
+          Agregar
+        </button>
+        <p id="response"></p>
+      </div>
+    </div>
+  </main>
+  <footer class="bar-nav">
+    <p>carito9018@gmail.com</p>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-github"></i>
+  </footer>
+
+</body>
+
+</html>
