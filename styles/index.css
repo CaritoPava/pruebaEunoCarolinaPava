@@ -46,12 +46,23 @@
 .main-conte {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
   background-color: azure;
   font-size: 1rem;
   color: cadetblue;
   text-align: center;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.main-conte li {
+  list-style: none;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.main-conte ul {
   padding: 1rem;
-  margin: 2rem;
 }
 
 .conteButton {
@@ -74,7 +85,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 1rem;
+  padding-left: 4rem;
   margin: 2rem;
 }
 
@@ -88,4 +99,11 @@
   margin: 0.5rem;
   border-radius: 10px;
   border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .main-conte-add {
+    display: flex;
+    flex-direction: column;
+  }
 }

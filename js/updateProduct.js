@@ -11,7 +11,11 @@ function updateProduct() {
     color,
     weight
   }
+  const productsStore = localStorage.getItem('products') ? JSON.parse(localStorage.getItem('products')) : []
   const response = updateItem(product, productsStore)
+  console.log(productsStore)
+  localStorage.clear()
+  localStorage.setItem('products', JSON.stringify(productsStore))
   const responseMessage = document.getElementById('response')
   responseMessage.innerHTML = response
 }

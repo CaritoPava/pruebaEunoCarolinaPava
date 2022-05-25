@@ -29,16 +29,19 @@
     <div class="main-conte-add">
       <form class="main-conte-addForm" action="">
         <label for="">Id</label>
-        <input type="text" placeholder="Id" name="id" id="">
+        <input type="text" placeholder="Id" id="code">
         <label for="">Nombre</label>
-        <input type="text" placeholder="Nombre" name="nombre" id="">
+        <input type="text" placeholder="Nombre" id="name">
         <label for="">Color</label>
-        <input type="text" placeholder="Color" name="color" id="">
+        <input type="text" placeholder="Color" id="color">
+        <label for="">Weight</label>
+        <input type="text" placeholder="Peso" id="weight">
       </form>
       <div class="conteButton">
-        <button class="buttonGeneric">
+        <button class="buttonGeneric" onclick="updateProduct()">
           Actualizar
         </button>
+        <p id="response"></p>
       </div>
     </div>
   </main>
